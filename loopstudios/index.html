@@ -70,12 +70,12 @@
 
     <section id="feature">
       <div
-        class="relative container max-w-5xl mx-auto flex flex-col md:flex-row py-32 px-6 md:px-0"
+        class="relative container max-w-5xl mx-auto flex flex-col md:flex-row py-32 px-6 pb-0 md:px-0"
       >
         <img src="./images/desktop/image-interactive.jpg" alt="" />
 
         <div
-          class="md:absolute bg-white md:bottom-6 md:right-0 py-16 md:p-16 text-center md:text-left space-y-8"
+          class="md:absolute bg-white md:bottom-6 md:right-0 pt-16 pb-0 md:p-16 text-center md:text-left space-y-8"
         >
           <h2 class="uppercase text-4xl max-w-md md:text-5xl">
             The leader in interactive VR
@@ -91,18 +91,175 @@
     </section>
     <!-- creations section -->
     <section id="creations">
+      <div class="container max-w-5xl mx-auto my-32 px-6 text-gray-900 md:px-0">
+        <!-- seaction title and button -->
+        <div
+          class="max-w-5xl mx-auto flex justify-center mb-20 md:justify-between"
+        >
+          <div class="text-4xl md:text-5xl uppercase pl-0">
+            <h2>Our Creations</h2>
+          </div>
 
-      <!-- seaction title and button -->
-      <div class="flex justify-center mb-20 md:justify-between">
-        <div class="text-4xl md:text-5xl uppercase pl-0">
-          <h2>Our Creations</h2>
+          <button class="hidden btn md:block">See all</button>
         </div>
 
-        <button class="hidden btn md:block">See all</button>
+        <!-- creations -->
+
+        <!-- item container 1 -->
+        <div class="item-container">
+          <div class="item group">
+            <img
+              src="./images/desktop/image-deep-earth.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-deep-earth.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Deep Earth</h5>
+          </div>
+
+          <div class="item group">
+            <img
+              src="./images/desktop/image-night-arcade.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-night-arcade.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Night Arcade</h5>
+          </div>
+
+          <div class="item group">
+            <img
+              src="./images/desktop/image-soccer-team.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-soccer-team.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Soccer Team VR</h5>
+          </div>
+
+          <div class="item group">
+            <img
+              src="./images/desktop/image-grid.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-grid.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Grid</h5>
+          </div>
+        </div>
+        <!-- item container 2 -->
+        <div class="item-container mt-10">
+          <div class="item group">
+            <img
+              src="./images/desktop/image-from-above.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-from-above.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>From Up Above VR</h5>
+          </div>
+          <div class="item group">
+            <img
+              src="./images/desktop/image-pocket-borealis.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-pocket-borealis.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Pocket Borealis</h5>
+          </div>
+          <div class="item group">
+            <img
+              src="./images/desktop/image-curiosity.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-curiosity.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>The Curiosity</h5>
+          </div>
+          <div class="item group">
+            <img
+              src="./images/desktop/image-fisheye.jpg"
+              alt=""
+              class="w-full hidden md:block group-hover:scale-110 duration-200"
+            />
+            <img
+              src="./images/mobile/image-fisheye.jpg"
+              alt=""
+              class="w-full block md:hidden"
+            />
+            <div class="item-gradient"></div>
+            <h5>Make it fisheye</h5>
+          </div>
+        </div>
+
+        <!-- button -->
+        <div class="flex">
+          <button class="btn md:hidden w-full mt-10">See all</button>
+        </div>
       </div>
+    </section>
 
-      <!--   -->
+    <section id="footer">
+      <div class="mx-auto bg-black flex flex-col items-center sm:space-y-8 md:flex-row pb-16 md:pb-16 md:justify-between px-3 pt-12">
+        <div class="flex flex-col space-y-8 md:space-y-4">
+          <img src="./images/logo.svg" alt="" class="w-44" />
+          <div class="flex flex-col sm:space-y-6  md:space-y-0 items-center md:items-start md:flex-row text-white font-bold md:space-x-4">
+            <a href="">About</a>
+            <a href="">Careers</a>
+            <a href="">Events</a>
+            <a href="">Products</a>
+            <a href="">Support</a>
+          </div>
+        </div>
+        <!-- socials and copyright -->
 
+        <div class="flex flex-col space-y-8 md:space-y-4 items-center md:items-start">
+          <!-- socials -->
+          <div class="flex space-x-4">
+            <img src="./images/icon-facebook.svg" alt="" class="h-6" />
+            <img src="./images/icon-twitter.svg" alt="" class="h-6" />
+            <img src="./images/icon-pinterest.svg" alt="" class="h-6" />
+            <img src="./images/icon-instagram.svg" alt="" class="h-6" />
+          </div>
+          <!-- copyright -->
+           <div class="text-gray-500">© 2022 Loopstudios. All Rights Reserved</div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
