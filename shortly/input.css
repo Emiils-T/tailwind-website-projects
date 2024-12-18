@@ -15,10 +15,10 @@
 .hamburger-bottom {
   position: absolute;
   width: 24px;
-  height: 2px;
+  height: 3px;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #9c9aa6;
   transform: rotate(0);
   transition: all 0.5s;
 }
@@ -31,9 +31,6 @@
   transform: translateY(14px);
 }
 
-.open {
-  transform: rotate(90deg);
-}
 
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
