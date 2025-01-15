@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body class="bg-darkBody">
+    <div class="container mx-auto max-w-2xl bg-darkContainer m-6">
+      <div class="container px-10 py-20">
+        <h1 class="text-white font-karla font-bold text-5xl max-w-lg">
+          Generate a <br />
+          <span class="text-greenText">random password</span>
+        </h1>
+        <p class="text-grayText text-xl font-inter">Never use an insecure password again.</p>
+
+        <button
+          id="password-gen"
+          class="bg-buttonGreen px-4 py-3 text-white rounded-lg mt-10 mb-8 font-inter"
+        >
+          Generate Passwords
+        </button>
+
+        <div class="border border-b border-borderColor"></div>
+
+        <!-- password generator output -->
+
+        <div class="flex flex-row space-x-6 mt-8 font-inter">
+
+          <div class="flex justify-center items-center bg-outputGray text-center rounded-lg h-10 w-1/2 ">
+            <p id="password1" class="text-outputTextGreen">>nfJjy!dDvR&ial</p>
+          </div>
+
+          <div class="flex justify-center items-center bg-outputGray  text-center  rounded-lg h-10 w-1/2">
+            <p id="password2" class="text-outputTextGreen">>nfJjy!dDvR&ial</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
