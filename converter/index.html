@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Converter</title>
+  </head>
+  <body class="bg-[#1F2937] w-screen h-screen flex items-center font-inter">
+    <div class="w-[550px] h-[729px] mx-auto bg-[#F4F4F4]">
+      <!-- input -->
+      <div
+        class="w-full h-[285px] bg-[#6943FF] text-center flex flex-col items-center space-y-8"
+      >
+        <!-- title -->
+        <h1 class="font-bold text-white text-3xl pt-8">
+          Metric/Imperial Unit Conversion
+        </h1>
+        <!-- input field -->
+        <input
+          type=""
+          name=""
+          id="input-field"
+          class="bg-[#6943FF] border-2 border-[#B295FF] outline-none rounded-lg w-28 h-20 text-center text-5xl text-white font-bold"
+        />
+        <button id="convert-btn" class="bg-white w-28 py-2 rounded-md">Convert</button>
+      </div>
+
+      <!-- output -->
+
+      <div class="flex flex-col text-center justify-around space-y-8">
+        <!-- length -->
+         <div class=" bg-white h-[108px] mt-6 mx-6 rounded-md">
+            <div class="text-[#5A537B] text-xl font-inter font-semibold mt-5">
+              Length (Meter/Feet)
+            </div>
+            <p id="length-output" class="font-inter mt-3 text-[#353535]">
+            </p>
+         </div>
+
+         <!-- volume -->
+         <div class=" bg-white h-[108px]  mx-6 rounded-md">
+          <div class="text-[#5A537B] text-xl font-inter font-semibold mt-5">
+            Volume (Liters/Gallons)
+          </div>
+          <p id="volume-output" class="font-inter mt-3 text-[#353535]">
+          </p>
+       </div>
+
+       <!-- Mass -->
+       <div class=" bg-white h-[108px]  mx-6 rounded-md">
+        <div class="text-[#5A537B] text-xl font-inter font-semibold mt-5">
+          Mass (Kilograms/Pounds)
+        </div>
+        <p id="mass-output" class="font-inter mt-3 text-[#353535]">
+        </p>
+     </div>
+
+      </div>
+    </div>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
